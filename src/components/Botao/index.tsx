@@ -1,9 +1,9 @@
-import React from "react";
-
-class Botao extends React.Component {
-    render(): React.ReactNode {
+import React from 'react';
+import './style.scss'; 
+class Botao extends React.Component{
+    render() {
         return(
-            <button>
+            <button className="botao">
                 Botao
             </button>
         )
